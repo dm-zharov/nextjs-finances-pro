@@ -4,20 +4,22 @@ export const metadata = {
 }
 
 import Link from 'next/link'
+import Hero from '@/components/hero'
 
-export default function SignUp() {
+export default function Support() {
   return (
-    <section className="relative">
+    <>
+      <Hero />
+      <section className="relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
-
           {/* Page header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h1 className="h1">Contact Me</h1>
+            <h1 className="h1">Support</h1>
           </div>
 
           <div className="max-w-sm mx-auto">
-            <div className="text-white text-center mt-6">
+            <div className="text-white text-lg text-center mt-6">
             If you have any questions, feel free to get in touch at:
             </div>
           </div>
@@ -31,5 +33,6 @@ export default function SignUp() {
         </div>
       </div>
     </section>
+    </>
   )
 }

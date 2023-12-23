@@ -4,16 +4,19 @@ export const metadata = {
 }
 
 import Link from 'next/link'
+import Hero from '@/components/hero'
 
-export default function SignIn() {
+export default function Privacy() {
   return (
-    <section className="relative">
+    <>
+      <Hero />
+      <section className="relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
 
           {/* Page header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h1 className="h1">Privacy Policy of the<br></br>Finances Pro</h1>
+            <h1 className="h1">Privacy Policy</h1>
           </div>
 
           {/* Form */}
@@ -50,5 +53,6 @@ export default function SignIn() {
         </div>
       </div>
     </section>
+    </>
   )
 }
