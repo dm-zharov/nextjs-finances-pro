@@ -23,7 +23,7 @@ export default function SignUp() {
           </div>
 
           <div className="max-w-sm mx-auto">
-            <div className="text-white text-center mt-6">
+            <div className="text-white text-lg text-center mt-6">
               <a href="mailto:contact@zharov.dev">contact@zharov.dev</a>
             </div>
           </div>

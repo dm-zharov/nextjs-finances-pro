@@ -18,11 +18,11 @@ export default function SignIn() {
 
           {/* Form */}
           <div className="max-w-sm mx-auto">
-            <div className="text-white text-center mt-6">
+            <div className="text-white text-lg text-center mt-6">
             We do not collect, use, save, or have access to any of your personal data recorded in Finances Pro.
             </div>
 
-            <div className="text-white text-center mt-6">
+            <div className="text-white text-lg text-center mt-6">
             Date: December 23, 2023
             </div>
           </div>
@@ -38,8 +38,12 @@ export default function SignIn() {
 
           {/* Form */}
           <div className="max-w-sm mx-auto">
-            <div className="text-white text-center mt-6">
-            To help us better understand how people use Finances Pro app and to continue improving it, we use analytics information provided by App Store Connect. These service provide generalized data about app, such as usage patterns, and other anonymized statistics. This data is completely anonymous and cannot personally identify you in any way.
+            <div className="text-white text-lg text-center mt-6">
+            To help better understand how people use Finances Pro app and to continue improving it, I use analytics information provided by App Store Connect.
+            </div>
+
+            <div className="text-white text-lg text-center mt-6">
+            These service provide generalized data about app, such as usage patterns, and other anonymized statistics. This data is completely anonymous and cannot personally identify you in any way.
             </div>
           </div>
 
