@@ -33,7 +33,7 @@ export default function Hero() {
             </div>
           </div>
 
-          <Image src={Thumb} width={1024} height={576} />
+          <Image src={Thumb} width={1024} height={576} alt="Preview" />
 
         </div>
 
