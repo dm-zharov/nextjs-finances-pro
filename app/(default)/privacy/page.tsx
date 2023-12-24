@@ -40,7 +40,7 @@ export default function Privacy() {
           {/* Form */}
           <div className="max-w-sm mx-auto">
             <div className="text-white text-lg text-center mt-6">
-            To help better understand how people use Finances Pro app and to continue improving it, I use analytics information provided by App Store Connect.
+            To help better understand how people use Finances Pro app and to continue improving it, we use analytics information provided by App Store Connect.
             </div>
 
             <div className="text-white text-lg text-center mt-6">
